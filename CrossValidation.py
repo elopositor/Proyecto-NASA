@@ -8,7 +8,7 @@ Xrand = np.random.randn(1000,40)
 X = pd.DataFrame(Xrand)
 X.head(10)
 
-Y = np.array([0, 1])
+Y = 12
 
 # Filas: muestras / registros
 # Columnas: variables / features
