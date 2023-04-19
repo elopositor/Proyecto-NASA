@@ -1,0 +1,22 @@
+numero = 1
+while numero < 100:
+    print(numero)
+    numero *= 2
+
+accion = ""
+while accion.lower != "salir":
+    accion = input("$ ")
+    print(accion)
+
+# En terminal se puede cortal el loop infinito con ctrl + c
+n = 1
+while True:
+    n = n+1
+    print("jaja", n)
+
+# Agregar break en loop
+while True:
+    comando = input("$ ")
+    print(comando)
+    if comando.lower() == "salir":
+        break

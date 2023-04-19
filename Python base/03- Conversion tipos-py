@@ -1,0 +1,12 @@
+
+x = input()
+
+# int() -> Transforma a integer
+# str() -> Transforma a string
+# float() -> Transforma a float
+# bool() -> Devuelve False para: "", 0 y None
+
+print(bool(""))
+print(bool("0"))
+print(bool(0))
+print(bool(None))
