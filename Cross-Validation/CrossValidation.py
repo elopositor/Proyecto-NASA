@@ -1,15 +1,7 @@
 # Double cross-validation
 import numpy as np
 import pandas as pd
-from sklearn import svm
+import sklearn as sk
 
-# Creating data frame
-Xrand = np.random.randn(1000, 40)
-X = pd.DataFrame(Xrand)
-X.head(10)
+# Split partition
 
-Y = np.array([0, 1])
-
-# Filas: muestras / registros
-# Columnas: variables / features
-X.np.sp
